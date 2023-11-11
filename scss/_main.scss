@@ -1,0 +1,54 @@
+main .garanty p {
+    display: inline-block;
+  }
+  
+  .contenedor-garanty {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  .img-garanty {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .garanty1, .garanty2, .garanty3 {
+    display: inline-block;
+  }
+  
+  .contenedor1-section {
+    display: inline-block;
+    width: 100vw;
+    margin-top: 30px;
+  }
+  
+  .section img {
+    width: 400px;
+  }
+  
+  .contenedor1-section {
+    .section p {
+      display: inline-block;
+      text-align: end;
+    }
+  
+    .section2 {
+      text-align: end;
+    }
+  }
+  
+  .text-gallery {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+  
+  .box {
+    display: inline-block;
+  }
+  
+  .galeria img {
+    width: 300px;
+  }
+  
