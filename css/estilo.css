@@ -29,7 +29,7 @@ a{
     text-decoration: none;
 }
 
-h1{
+h1, h2{
     text-align: center;
     margin: 5rem 0;
     font-size: 4rem;
@@ -105,4 +105,12 @@ main .garanty p{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Cards Amigos */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
