@@ -114,3 +114,11 @@ main .garanty p{
     justify-content: space-between;
     margin-bottom: 50px;
 }
+
+/* FOOTER */
+
+.footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
