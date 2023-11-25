@@ -217,7 +217,7 @@ body {
   /* Cards Amigos */
   .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 50px;
   }
   /* FOOTER */
