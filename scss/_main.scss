@@ -1,54 +1,60 @@
 main .garanty p {
     display: inline-block;
   }
-  
+
   .contenedor-garanty {
     margin: 50px 0;
     text-align: center;
   }
-  
+
   .img-garanty {
     width: 150px;
     height: 150px;
     object-fit: contain;
   }
-  
+
   .garanty1, .garanty2, .garanty3 {
     display: inline-block;
   }
-  
+
   .contenedor1-section {
     display: inline-block;
     width: 100vw;
     margin-top: 30px;
-  }
-  
-  .section img {
-    width: 400px;
-  }
-  
-  .contenedor1-section {
+
     .section p {
       display: inline-block;
       text-align: end;
     }
-  
+
     .section2 {
       text-align: end;
     }
   }
-  
+
+  .section img {
+    width: 400px;
+  }
+
   .text-gallery {
     text-align: center;
     font-size: 4rem;
     margin-top: 50px;
   }
-  
-  .box {
-    display: inline-block;
+
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .box {
+      width: 500px;
+      object-fit: contain;
+      border: 5px solid red;
+
+    }
+
+    img {
+      width: 300px;
+    }
   }
-  
-  .galeria img {
-    width: 300px;
-  }
-  
