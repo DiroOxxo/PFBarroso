@@ -130,7 +130,6 @@ body {
   /* Header */
   nav ul li {
     list-style: none;
-    margin: 0 40px;
     font-size: 20px;
   }
   nav ul {
@@ -210,7 +209,7 @@ body {
   }
   /* Formulario */
   .contenedor-form {
-    width: 1000px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
