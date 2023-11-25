@@ -85,12 +85,13 @@ main .garanty p {
   justify-content: center;
 }
 .galeria .box {
-  width: 500px;
-  object-fit: contain;
-  border: 5px solid red;
+  width: 600px;
+  text-align: center;
 }
 .galeria img {
-  width: 300px;
+  max-width: 500px;
+  height: 350px;
+  object-fit: cover;
 }
 
 * {
@@ -193,11 +194,19 @@ body {
     font-size: 3rem;
     margin-top: 50px;
   }
-  .box {
-    display: inline-block;
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .galeria .box {
+    width: 400px;
+    object-fit: cover;
+    text-align: center;
   }
   .galeria img {
-    width: 300px;
+    max-width: 300px;
+    height: fit-content;
   }
   /* Formulario */
   .contenedor-form {

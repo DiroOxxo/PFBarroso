@@ -88,12 +88,24 @@ main .garanty p{
     margin-top: 50px;
 }
 
-.box{
-    display: inline-block;
-}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-.galeria img{
-    width: 300px;
+    .box{
+        width: 400px;
+        // display: inline-block;
+        object-fit: cover;
+        text-align: center;
+    }
+
+
+    img{
+        max-width: 300px;
+        height: fit-content;
+    }
+    
 }
 
 /* Formulario */
